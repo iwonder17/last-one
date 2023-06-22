@@ -52,11 +52,11 @@ display: block;
     }}
 @keyframes backmove
 {
-    0%{background-size:190vh;
+    0%{background-size:100%;
     
     }
-    90%{background-size:350vh;}
-    100%{background-size:190vh;}
+    90%{background-size:200%;}
+    100%{background-size:100%;}
 }
 .leftbar,.rightbar{
     height: 50vh;

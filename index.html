@@ -15,9 +15,12 @@
     
     
 <meta name=“viewport” content=“width : 100vw, initial-scale=1”>
+    
+    
+    
     </head>
    <body>
-       <script src="script.js"></script>
+      
        
        <!--backgound and container-->
        <div class="background"></div>
@@ -25,31 +28,66 @@
         <div class="containerback"></div>
        <!--<div class="moving-line"></div>-->
         <div class="content">
-       
+         <h1>Player : Vitamin_T <br> <hr></h1>
           <div id="motherlist" class="motherlist">
-             <a class="link" id="Home" onclick="document.getElementById('motherlist').style.display= 'none'" >Home</a>
-              <a class="link" id="About" >About</a>
-              <a class="link" id="Contact" >Contact</a>
-              <a class="link" id="serviecs" >Serviecs</a>
+              <!--bunch of fucking link-->
+             <a class="link" id="Home" onclick="document.getElementById('motherlist').style.display = 'none'" >Back</a>
+              <!--bunch of fucking link-->
               
+              <a class="link"  onclick="aboutcontent()">About</a>
+              <!--bunch of fucking link-->
+              <a class="link"  onclick="contactcontent()">Contact</a>
+              <!--bunch of fucking link-->
+              <a class="link" onclick="servicescontent()">Serviecs</a>
+              
+            
             </div>  
+              <!--about -->
+            <div id="about" class="about">
+              
+              <p id="load">name:</p>
+                <p id="load">name:</p>
+                <p id="load">name:</p>
+                <p id="load">name:</p>
+                <p id="load">name:</p>
+              </div>
+            
+            <!--about -->
+            <div id="contact" class="about">
+            
+                <p id="load">name:ironman</p>
+                <p id="load">name:ironman</p>
+                <p id="load">name:ironman</p>
+                <p id="load">name:ironman</p>
+                <p id="load">name:ironman</p>
             
             
+            </div>
+             <!--about -->
+               <div id="services" class="about">
             
+                <p id="load">name:ironman is me fucker</p>
+                <p id="load">name:ironman is me fucker</p>
+                <p id="load">name:ironman is me fucker</p>
+                <p id="load">name:ironman is me fucker</p>
+                <p id="load">name:ironman is me fucker</p>
+            
+            
+            </div>
             
         </div>
        
        </div>
        
        <!--side menu bar-->
-       <button id="bar" class="leftbar" onclick="document.getElementById('motherlist').style.display= 'block'"><span class="material-symbols-outlined">
+       <button class="leftbar" onclick="hidemotherlist()"><span class="material-symbols-outlined">
 arrow_forward_ios
 </span></button>
        
     
     <!--big menu-->
-    
-    </body>
 
+    </body>
+<script src="script.js"></script>
 
 </html>

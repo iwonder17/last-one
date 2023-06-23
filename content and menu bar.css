@@ -28,6 +28,7 @@ place-items: center;
 .moving-line{opacity:0.4 ;}
 
 .motherlist{
+    position: absolute;
     display: flex;
     flex-direction: column;
     place-content: center;
@@ -35,13 +36,12 @@ place-items: center;
     list-style: hebrew;
     width: 85%;
     height: 85%;
-   
     border-radius: 10px;
     border: 2px solid;
     overflow: hidden;
-    animation: open  0.5s linear   ;
+    animation: open  0.5s linear ;
+    z-index: 3;
     }
-button:hover + .motherlist{height: 30px;}
 a{display: block;
 width:100%;
     height: calc(100% / 4);
@@ -60,3 +60,18 @@ a:active {
     background-color: black;
     color:yellow;
 }
+/*****************/
+h1{position: absolute;
+top: 0;
+text-transform: uppercase;
+}
+.about{
+background-color: ;
+    position: relative;
+    display: none;
+    width:85%;
+    height: 65%;
+    font-size: 45px;
+    
+}
+

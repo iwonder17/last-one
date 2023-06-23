@@ -13,22 +13,24 @@
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     
     
-    <script src="sc.js"></script>
+    
 <meta name=“viewport” content=“width : 100vw, initial-scale=1”>
     </head>
    <body>
+       <script src="script.js"></script>
+       
        <!--backgound and container-->
        <div class="background"></div>
     <div class="container">
         <div class="containerback"></div>
-       <div class="moving-line"></div>
+       <!--<div class="moving-line"></div>-->
         <div class="content">
        
-          <div class="motherlist">
-             <a class="link" id="Home" >Home</a>
+          <div id="motherlist" class="motherlist">
+             <a class="link" id="Home" onclick="document.getElementById('motherlist').style.display= 'none'" >Home</a>
               <a class="link" id="About" >About</a>
-              <a class="link" id="About" >Contact</a>
-              <a class="link" id="About" >Serviecs</a>
+              <a class="link" id="Contact" >Contact</a>
+              <a class="link" id="serviecs" >Serviecs</a>
               
             </div>  
             
@@ -40,7 +42,7 @@
        </div>
        
        <!--side menu bar-->
-       <button id="bar" class="leftbar"><span class="material-symbols-outlined">
+       <button id="bar" class="leftbar" onclick="document.getElementById('motherlist').style.display= 'block'"><span class="material-symbols-outlined">
 arrow_forward_ios
 </span></button>
        

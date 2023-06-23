@@ -4,9 +4,8 @@
 .content{;
 width:96%;
 height: 96% ;
-position: absolute;
-    top:2%;
-    right:2%;
+position: relative;
+   margin: auto;
     
     border: 2px solid ;
     border-radius: 10px;
@@ -18,7 +17,6 @@ position: absolute;
     display: flex;
     justify-content: center;
 place-items: center;
-    filter: blur(none)!important;
     z-index: 2;
     
     
@@ -41,14 +39,9 @@ place-items: center;
     border-radius: 10px;
     border: 2px solid;
     overflow: hidden;
-    /*animation: open linear 0.5s reverse ;*/
-   transition: height 5s;
-    
- 
-
-    
-}
-
+    animation: open  0.5s linear   ;
+    }
+button:hover + .motherlist{height: 30px;}
 a{display: block;
 width:100%;
     height: calc(100% / 4);
@@ -58,9 +51,9 @@ width:100%;
     place-content: center;
    
 }
-/*@keyframes open {
+@keyframes open {
     from{height: 0px;}
-    to {height: 85% ;}*/
+    to {height: 85% ;}
 }
 
 a:active {

@@ -52,8 +52,8 @@ width:100%;
    
 }
 @keyframes open {
-    from{height: 0px;}
-    to {height: 85% ;}
+    from{transform: scaleY(0);}
+    to {transform: scaleY(100%) ;}
 }
 
 a:active {

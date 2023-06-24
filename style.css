@@ -2,21 +2,31 @@
 body{
     margin:0;
     top:0;
+    right: :0;
+    left:0;
+    bottom:0;
     height: 100vh;
     width: 100vw;
     overflow: hidden;
     
 }
 
+.backmother{width:100%;
+height: 100%;
+overflow: hidden;
+position: absolute;}
+
 .background{
-    top:0;  left:0; bottom:0;
-    right:0;position: absolute;
- 
+    
+    position: absolute;
+ width:100%;
+    height: 100%;
    background-image:url(portal-gatway-man-walk-fantasy.jpg);
 background-position:center;
 background-size: auto 100%;
    /* background-position: 50% 30%;*/
     animation:backmove 60s linear infinite;
+    overflow: hidden;
     
    
         

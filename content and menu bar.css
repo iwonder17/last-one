@@ -15,12 +15,12 @@ position: relative;
     font-size: 25px;
     color :white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 place-items: center;
     z-index: 2;
     
-    
-    overflow:hidden;
+    overflow: auto;
 }
 
 .containerback{    opacity: 0.6}
@@ -64,6 +64,8 @@ a:active {
 h1{position: absolute;
 top: 0;
 text-transform: uppercase;
+        font-family: 'Orbitron', sans-serif;
+    font-size: 40px
 }
 .about{
 background-color: ;
@@ -71,7 +73,17 @@ background-color: ;
     display: none;
     width:85%;
     height: 65%;
-    font-size: 45px;
+    font-size:40px;
     
 }
+p{
+    display: block;
+    width: 100%;
+  min-height: 54px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+*{font-family: 'Orbitron', sans-serif;}
+
+
 

@@ -190,13 +190,13 @@ closeallshit();
 document.getElementById('about').style.display= 'block'; 
     hh1();
     hi('--- SERVICES ---');
-    hi2('😎 Intro page (clone): 0đ');
+    hi2('😎 Intro page (clone): 20k');
     hi3('🎁Change content: 7749Times');
     hi4('🎁 Change theme: 1 Times');
     hi5('😎 modify option: ⚙');
-    hi6('🥺 Change theme & Font: 0đ');
+    hi6('🥺 Change theme & Font: 5k');
     hi7('🙄 Build new: (out of stock)');
-    hi8('📢 Accept you only 😍');
+    hi8('📢 Accept cash only 💰');
     hl2('📢 Iwonder17 for more info ')
     hi9('📢 Notice: Support contact can be removed. But the Services page can not be modified');
     hi10('😗 Actually, those can be changed if you want. ❤ ');

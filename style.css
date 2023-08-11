@@ -8,6 +8,7 @@ body{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+     scroll-snap-type: y mandatory;
     
 }
 
@@ -40,9 +41,9 @@ position: relative;
    /*height: calc(8.5vw * 16)*/
     height: 85vh;
  margin: auto;
-    /*top:10vh;*/
+    top:7.5vh;
     /*margin-top: calc((100vh - 8.5vw*16) / 99999999 );*/
-    
+      scroll-snap-align: center;
 }
 
 

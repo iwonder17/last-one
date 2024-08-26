@@ -160,8 +160,8 @@ document.getElementById('about').style.display= 'block';
     hi3('Name: Nguyen Phan Quoc Huy');
     hi4('Age: '+ageString+' 🐕');
     hi5('sex: Man 😈');
-    hi6('Ability: Unknow 🕸');
-    hi7('Location: Unknow 👽');
+    hi6('Ability: Creative 🕸');
+    hi7('Location: MO - America 👽');
     hi8('Status: Single 👤');
     hh1();
 }//about
@@ -174,11 +174,11 @@ document.getElementById('about').style.display= 'block';
     hi('--- Host ---');
     hl1('Fecbk: Huy nguyen');
     hi3('Email : quochuy170206');
-    hi4('Phone: 0907170206');
+    hi4('Phone: 916-883-6171');
     hi8('*** Support 🧐***');
     hl2('Fecbk: iwonder17');
     hi10('Email : iwonder17.e');
-    hi11('Phone: 0933762030');
+    hi11('Phone: NA');
     closelink();
     
 }//contact
@@ -190,16 +190,16 @@ closeallshit();
 document.getElementById('about').style.display= 'block'; 
     hh1();
     hi('--- SERVICES ---');
-    hi2('😎 Intro page (clone): 20k');
+    hi2('😎 Intro page (clone): 1$');
     hi3('🎁Change content: 7749Times');
     hi4('🎁 Change theme: 1 Times');
     hi5('😎 modify option: ⚙');
-    hi6('🥺 Change theme & Font: 5k');
+    hi6('🥺 Change theme & Font: 1$');
     hi7('🙄 Build new: (out of stock)');
     hi8('📢 Accept cash only 💰');
     hl2('📢 Iwonder17 for more info ')
     hi9('📢 Notice: Support contact can be removed. But the Services page can not be modified');
-    hi10('😗 Actually, those can be changed if you want. ❤ ');
+    
     
     
 }//services
